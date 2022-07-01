@@ -29,12 +29,26 @@ const backgrounRect4 = new fabric.Rect({
   fill: "Violet",
 });
 const backgrounRect5 = new fabric.Rect({
-    width: 1280,
-    height: 720,
-    left: 0,
-    top: 0,
-    fill: "IndianRed",
-  });
+  width: 1280,
+  height: 720,
+  left: 0,
+  top: 0,
+  fill: "IndianRed",
+});
+const backgrounRect6 = new fabric.Rect({
+  width: 1280,
+  height: 720,
+  left: 0,
+  top: 0,
+  fill: "DarkOrange",
+});
+const backgrounRect7 = new fabric.Rect({
+  width: 1280,
+  height: 720,
+  left: 0,
+  top: 0,
+  fill: "MediumSlateBlue",
+});
 
 const div1Object = new fabric.Rect({
   width: 300,
@@ -157,94 +171,94 @@ const div16Object = new fabric.Circle({
   fill: "teal",
 });
 const div17Object = new fabric.Rect({
-    width: 300,
-    height: 200,
-    left: 300,
-    top: 100,
-    fill: "aqua",
-  });
-  const div18Object = new fabric.Rect({
-    width: 300,
-    height: 200,
-    left: 700,
-    top: 100,
-    fill: "yellow",
-  });
-  const div19Object = new fabric.Rect({
-    width: 300,
-    height: 200,
-    left: 300,
-    top: 400,
-    fill: "green",
-  });
-  const div20Object = new fabric.Rect({
-    width: 300,
-    height: 200,
-    left: 700,
-    top: 400,
-    fill: "darkblue",
-  });
-//   const div5Object = new fabric.Circle({
-//     width: 300,
-//     height: 200,
-//     left: 300,
-//     top: 100,
-//     fill: "magenta",
-//     radius: 150,
-//   });
-//   const div6Object = new fabric.Circle({
-//     width: 300,
-//     height: 200,
-//     left: 700,
-//     top: 100,
-//     fill: "maroon",
-//     radius: 150,
-//   });
-//   const div7Object = new fabric.Circle({
-//     width: 300,
-//     height: 200,
-//     left: 300,
-//     top: 400,
-//     fill: "cyan",
-//     radius: 150,
-//   });
-//   const div8Object = new fabric.Circle({
-//     width: 300,
-//     height: 200,
-//     left: 700,
-//     top: 400,
-//     fill: "lightgreen",
-//     radius: 150,
-//   });
-//   const div9Object = new fabric.Rect({
-//     width: 300,
-//     height: 200,
-//     left: 300,
-//     top: 100,
-//     fill: "brown",
-//   });
-//   const div10Object = new fabric.Rect({
-//     width: 300,
-//     height: 200,
-//     left: 700,
-//     top: 100,
-//     fill: "blue",
-//   });
-//   const div11Object = new fabric.Rect({
-//     width: 300,
-//     height: 200,
-//     left: 300,
-//     top: 400,
-//     fill: "red",
-//   });
-//   const div12Object = new fabric.Rect({
-//     width: 300,
-//     height: 200,
-//     left: 700,
-//     top: 400,
-//     fill: "pink",
-//     radius: 150,
-//   });
+  width: 300,
+  height: 200,
+  left: 300,
+  top: 100,
+  fill: "aqua",
+});
+const div18Object = new fabric.Rect({
+  width: 300,
+  height: 200,
+  left: 700,
+  top: 100,
+  fill: "yellow",
+});
+const div19Object = new fabric.Rect({
+  width: 300,
+  height: 200,
+  left: 300,
+  top: 400,
+  fill: "green",
+});
+const div20Object = new fabric.Rect({
+  width: 300,
+  height: 200,
+  left: 700,
+  top: 400,
+  fill: "darkblue",
+});
+const div21Object = new fabric.Circle({
+  width: 300,
+  height: 200,
+  left: 300,
+  top: 100,
+  fill: "magenta",
+  radius: 150,
+});
+const div22Object = new fabric.Circle({
+  width: 300,
+  height: 200,
+  left: 700,
+  top: 100,
+  fill: "maroon",
+  radius: 150,
+});
+const div23Object = new fabric.Circle({
+  width: 300,
+  height: 200,
+  left: 300,
+  top: 400,
+  fill: "cyan",
+  radius: 150,
+});
+const div24Object = new fabric.Circle({
+  width: 300,
+  height: 200,
+  left: 700,
+  top: 400,
+  fill: "lightgreen",
+  radius: 150,
+});
+const div25Object = new fabric.Rect({
+  width: 300,
+  height: 200,
+  left: 300,
+  top: 100,
+  fill: "brown",
+});
+const div26Object = new fabric.Rect({
+  width: 300,
+  height: 200,
+  left: 700,
+  top: 100,
+  fill: "blue",
+});
+const div27Object = new fabric.Rect({
+  width: 300,
+  height: 200,
+  left: 300,
+  top: 400,
+  fill: "red",
+});
+const div28Object = new fabric.Rect({
+  width: 300,
+  height: 200,
+  left: 700,
+  top: 400,
+  fill: "pink",
+  radius: 150,
+});
 //   const div13Object = new fabric.Circle({
 //     width: 300,
 //     height: 200,
@@ -344,35 +358,44 @@ const group5 = new fabric.Group(
       height: 720,
       left: 0,
       top: 0,
+      originX: "center",
+      originY: "center",
     }),
   }
 );
 
-// const group6 = new fabric.Group(
-//   [backgrounRect2, div5Object, div6Object, div7Object, div8Object],
-//   {
-//     width: 1280,
-//     height: 720,
-//     top: 360,
-//     left: 640,
-//     visible: false,
-//     originX: "center",
-//     originY: "center",
-//   }
-// );
+const group6 = new fabric.Group(
+  [backgrounRect6, div21Object, div22Object, div23Object, div24Object],
+  {
+    width: 1280,
+    height: 720,
+    top: 360,
+    left: 640,
+    visible: false,
+    originX: "center",
+    originY: "center",
+    clipPath: new fabric.Circle({
+      radius: 1280,
+      left: 0,
+      top: 0,
+      originX: "center",
+      originY: "center",
+    }),
+  }
+);
 
-// const group7 = new fabric.Group(
-//   [backgrounRect3, div9Object, div10Object, div11Object, div12Object],
-//   {
-//     width: 1280,
-//     height: 720,
-//     top: 360,
-//     left: 640,
-//     visible: false,
-//     originX: "center",
-//     originY: "center",
-//   }
-// );
+const group7 = new fabric.Group(
+  [backgrounRect7, div25Object, div26Object, div27Object, div28Object],
+  {
+    width: 1280,
+    height: 720,
+    top: 360,
+    left: 640,
+    visible: false,
+    originX: "center",
+    originY: "center",
+  }
+);
 
 // const group8 = new fabric.Group(
 //   [backgrounRect4, div13Object, div14Object, div15Object, div16Object],
@@ -387,14 +410,13 @@ const group5 = new fabric.Group(
 //   }
 // );
 
-// canvas.add(group8);
-// canvas.add(group7);
-// canvas.add(group6);
-canvas.add(group5);
+canvas.add(group1);
+canvas.add(group2);
 canvas.add(group4);
 canvas.add(group3);
-canvas.add(group2);
-canvas.add(group1);
+canvas.add(group5);
+canvas.add(group6);
+canvas.add(group7);
 canvas.renderAll();
 
 const show = (group) => {
@@ -574,8 +596,95 @@ const wipeInGroup5 = {
   update: () => {
     group5.set("dirty", true);
     group5.clipPath.set("dirty", true);
-  }
+  },
 };
+
+const circularWipe = {
+  keyframes: [
+    {
+      radius: 0,
+      duration: 0,
+    },
+    {
+      radius: 1280,
+      duration: 1000,
+    },
+  ],
+};
+
+const circularWipeGroup6 = {
+  ...circularWipe,
+  targets: [group6.clipPath],
+  easing: "linear",
+  update: () => {
+    group6.set("dirty", true);
+    group6.clipPath.set("dirty", true);
+  },
+};
+
+const scaleRotateFadeOut = {
+  keyframes: [
+    {
+      scaleY: 1,
+      scaleY: 1,
+      angle: 0,
+      duration: 0,
+      opacity: 1,
+    },
+    {
+      duration: 500,
+      opacity: 0.5,
+      scaleX: 5,
+      scaleY: 5,
+      angle: 180,
+    },
+    {
+      scaleX: 1,
+      scaleY: 1,
+      angle: 360,
+      duration: 1000,
+      opacity: 0,
+    },
+  ],
+};
+
+const scaleRotateFadeIn = {
+    keyframes: [
+      {
+        scaleY: 5,
+        scaleY: 5,
+        angle: 0,
+        duration: 0,
+        opacity: 0,
+      },
+      {
+        duration: 500,
+        opacity: 0.5,
+        scaleX: 5,
+        scaleY: 5,
+        angle: 180,
+      },
+      {
+        scaleX: 1,
+        scaleY: 1,
+        angle: 360,
+        duration: 1000,
+        opacity: 1,
+      },
+    ],
+  };
+
+const scaleRotateFadeOutGroup6 = {
+  ...scaleRotateFadeOut,
+  targets: [group6],
+  easing: "linear",
+};
+
+const scaleRotateFadeInGroup7 = {
+    ...scaleRotateFadeIn,
+    targets: [group7],
+    easing: "linear",
+  };
 
 tl.add(show(group1), 0);
 tl.add(show(group2), 1000);
@@ -583,8 +692,12 @@ tl.add(show(group3), 3000);
 tl.add(hide(group2), 4000);
 tl.add(show(group4), 5000);
 tl.add(hide(group3), 6000);
-// tl.add(show(group5), 7000);
-// tl.add(hide(group4), 8000);
+tl.add(show(group5), 7000);
+tl.add(hide(group4), 8000);
+tl.add(show(group6), 9000);
+tl.add(hide(group5), 10000);
+tl.add(show(group7), 11000);
+tl.add(hide(group6), 12000);
 
 tl.add(slideOutGroup1, 1000);
 tl.add(slideInGroup2, 1000);
@@ -592,4 +705,7 @@ tl.add(fadeInGroup3, 1000);
 tl.add(fadeOutGroup2, 3000);
 tl.add(fadeInGroup3, 3000);
 tl.add(zoomOutFadeGroup3, 5000);
-// tl.add(wipeInGroup5, 7000);
+tl.add(wipeInGroup5, 7000);
+tl.add(circularWipeGroup6, 9000);
+tl.add(scaleRotateFadeOutGroup6, 11000);
+tl.add(scaleRotateFadeInGroup7, 11000);
